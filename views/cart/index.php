@@ -47,7 +47,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <button id="btnAgregar" class="btn btn-solid"> Agregar Producto</button>
+                    <button id="btnagregar" class="btn btn-solid"> Agregar Producto</button>
                     <br>
                     <br>
                 <div>
@@ -210,7 +210,9 @@
         </div>
     </section>
     <!--section end-->
-
+    <?php
+        require_once("modal.php")
+    ?>
 
     <!-- footer start -->
     <?php
@@ -222,6 +224,7 @@
     <?php
         require_once("../html/js.php");
     ?>
+    <script type="text/javascript" src="cart.js"></script>
 </body>
 
 </html>
