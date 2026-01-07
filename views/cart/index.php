@@ -41,7 +41,6 @@
     </div>
     <!-- breadcrumb End -->
 
-
     <!--section start-->
     <section class="cart-section section-b-space">
         <div class="container">
@@ -71,106 +70,13 @@
                                 <th scope="col">Total</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody id="listdetalle">
                             <tr>
                                 <td>
                                     <a href="#"><img src="../../assets/images/pro3/2.jpg" alt=""></a>
                                 </td>
                                 <td><a href="#">cotton shirt</a>
-                                    <div class="mobile-cart-content row">
-                                        <div class="col">
-                                            <div class="qty-box">
-                                                <div class="input-group">
-                                                    <input type="text" name="quantity" class="form-control input-number" value="1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <h2 class="td-color">$63.00</h2>
-                                        </div>
-                                        <div class="col">
-                                            <h2 class="td-color"><a href="#" class="icon"><i class="ti-close"></i></a>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <h2>$63.00</h2>
-                                </td>
-                                <td>
-                                    <div class="qty-box">
-                                        <div class="input-group">
-                                            <input type="number" name="quantity" class="form-control input-number" value="1">
-                                        </div>
-                                    </div>
-                                </td>
-                                <td><a href="#" class="icon"><i class="ti-close"></i></a></td>
-                                <td>
-                                    <h2 class="td-color">$4539.00</h2>
-                                </td>
-                            </tr>
-                        </tbody>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <a href="#"><img src="../../assets/images/pro3/35.jpg" alt=""></a>
-                                </td>
-                                <td><a href="#">cotton shirt</a>
-                                    <div class="mobile-cart-content row">
-                                        <div class="col">
-                                            <div class="qty-box">
-                                                <div class="input-group">
-                                                    <input type="number" name="quantity" class="form-control input-number" value="1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <h2 class="td-color">$63.00</h2>
-                                        </div>
-                                        <div class="col">
-                                            <h2 class="td-color"><a href="#" class="icon"><i class="ti-close"></i></a>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <h2>$63.00</h2>
-                                </td>
-                                <td>
-                                    <div class="qty-box">
-                                        <div class="input-group">
-                                            <input type="number" name="quantity" class="form-control input-number" value="1">
-                                        </div>
-                                    </div>
-                                </td>
-                                <td><a href="#" class="icon"><i class="ti-close"></i></a></td>
-                                <td>
-                                    <h2 class="td-color">$4539.00</h2>
-                                </td>
-                            </tr>
-                        </tbody>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <a href="#"><img src="../../assets/images/pro3/33.jpg" alt=""></a>
-                                </td>
-                                <td><a href="#">cotton shirt</a>
-                                    <div class="mobile-cart-content row">
-                                        <div class="col">
-                                            <div class="qty-box">
-                                                <div class="input-group">
-                                                    <input type="number" name="quantity" class="form-control input-number" value="1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <h2 class="td-color">$63.00</h2>
-                                        </div>
-                                        <div class="col">
-                                            <h2 class="td-color"><a href="#" class="icon"><i class="ti-close"></i></a>
-                                            </h2>
-                                        </div>
-                                    </div>
+                                    
                                 </td>
                                 <td>
                                     <h2>$63.00</h2>
@@ -195,7 +101,7 @@
                                 <tr>
                                     <td>Precio Total :</td>
                                     <td>
-                                        <h2>$6935.00</h2>
+                                        <h2 id="vent_total_cart">USD 00.00</h2>
                                     </td>
                                 </tr>
                             </tfoot>

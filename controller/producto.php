@@ -35,7 +35,7 @@
         case "mostrar":
             //TODO : Se obtiene la informacion del producto con el id enviado y se prepara la respuesta
             $datos=$producto->get_producto_x_id($_POST["prod_id"]);
-            if (is_array($datos)==true and count($datos)>0 ){
+            if (is_array($datos)==true and count($datos)>0){
                 foreach($datos as $row){
                     $output["prod_id"]=$row["prod_id"];
                     $output["cat_id"]=$row["cat_id"];

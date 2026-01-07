@@ -21,7 +21,7 @@
             return $resultado = $sql->fetchAll();
         }
         //TODO: Funcion para obtener un producto especifico de la bade de datos
-        public function get_producto_x_id(int $prod_id){
+        public function get_producto_x_id($prod_id){
             $conectar = parent::Conexion();
             parent::set_names();
             $sql="SELECT
@@ -35,7 +35,7 @@
             INNER JOIN tm_categoria
             ON tm_producto.cat_id = tm_categoria.cat_id 
             WHERE tm_producto.est = 1
-            AND tm_prodicto.prod_id=?";
+            AND tm_producto.prod_id=?";
             $sql = $conectar->prepare($sql);
             $sql->bindValue(1,$prod_id);
             $sql->execute();

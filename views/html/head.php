@@ -9,9 +9,7 @@
     
 
     <!--Google font-->
-    <link href="../../css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="../../css2?family=Yellowtail&display=swap" rel="stylesheet">
 
     <!-- Icons -->
     <link rel="stylesheet" type="text/css" href="../../assets/css/vendors/font-awesome.css">
@@ -31,3 +29,6 @@
 
     <!-- Theme css -->
     <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+
+
+    <link rel="stylesheet"  href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">

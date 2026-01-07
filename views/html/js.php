@@ -28,6 +28,8 @@
     <script src="../../assets/js/theme-setting.js"></script>
     <script src="../../assets/js/script.js"></script>
 
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
     <script>
         function openSearch() {
             document.getElementById("search-overlay").style.display = "block";

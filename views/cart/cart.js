@@ -117,6 +117,7 @@ $(document).on("click","#btnpaypal", function(){
     });
 });
 
+// TODO : AGREGAR PRODUCTO POR PRODUCTO
 function agregar(prod_id){
     $.ajax({
         url:"../../controller/producto.php?op=mostrar",
@@ -143,6 +144,7 @@ function agregar(prod_id){
 }
 
 function listarDetalles(){
+    console.log("LISTAR_DETALLES");
     $('#listdetalle').html('');
     var filas = "";
     var det_total = 0;
