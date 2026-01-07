@@ -30,6 +30,8 @@
 
     <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <script>
         function openSearch() {
             document.getElementById("search-overlay").style.display = "block";
